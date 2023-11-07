@@ -1,25 +1,16 @@
 {
-  "name": "angular-electron",
-  "version": "13.0.0",
-  "description": "Angular 16 with Electron 25 (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "nhl66-gui",
+  "version": "1.0.0",
+  "description": "Watch NHL games for free",
+  "homepage": "https://github.com/tekbec/nhl66-gui",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "tekbec",
+    "email": "tekbec@proton.me"
   },
   "keywords": [
-    "angular",
-    "angular 16",
-    "electron",
-    "electron 25",
-    "nodejs",
-    "typescript",
-    "playwright",
-    "eslint",
-    "sass",
-    "windows",
-    "mac",
-    "linux"
+    "nhl",
+    "nhl66",
+    "stream"
   ],
   "main": "app/main.js",
   "private": true,

@@ -1,11 +1,11 @@
 {
-  "name": "angular-electron",
-  "description": "Angular Electron sample",
+  "name": "nhl66-gui",
+  "description": "Watch NHL games for free",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "tekbec",
+    "email": "tekbec@proton.me"
   },
-  "version": "13.0.0",
+  "version": "1.0.0",
   "main": "main.js",
   "private": true,
   "dependencies": {
