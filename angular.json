@@ -8,7 +8,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron": {
+    "nhl66-gui": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -114,27 +114,27 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "nhl66-gui:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "angular-electron:build:dev"
+              "browserTarget": "nhl66-gui:build:dev"
             },
             "production": {
-              "browserTarget": "angular-electron:build:production"
+              "browserTarget": "nhl66-gui:build:production"
             },
             "web": {
-              "browserTarget": "angular-electron:build:web"
+              "browserTarget": "nhl66-gui:build:web"
             },
             "web-production": {
-              "browserTarget": "angular-electron:build:web-production"
+              "browserTarget": "nhl66-gui:build:web-production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "nhl66-gui:build"
           }
         },
         "test": {
@@ -170,7 +170,7 @@
         }
       }
     },
-    "angular-electron-e2e": {
+    "nhl66-gui-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
